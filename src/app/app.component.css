@@ -1,0 +1,75 @@
+/* Styles for the header container */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 50px; /* You can adjust the height as needed */
+  background-color: #f0f0f0; /* Example background color for the header */
+}
+
+.header-image {
+  width: 20px;
+  height: 22.997px;
+  flex-shrink: 0;
+}
+
+/* Styles for the sidebar container */
+.sidebar {
+  width: 250px; /* Adjust the width as needed */
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Styles for the image and text container */
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+}
+
+.group-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+}
+
+/* Styles for the sidebar image */
+.sidebar-image {
+  /* Add any styles for the image if needed */
+}
+
+/* Styles for the sidebar text */
+.sidebar-text {
+  /* Add any additional styles for the text container if needed */
+  color: #808191;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Styles for the search button */
+.search-button {
+  display: flex;
+  padding: 16px 20px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #6C5DD3, #FFFFFF);
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the button text */
+.button-text {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
